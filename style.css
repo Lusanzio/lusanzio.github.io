@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+  }
+
+  html{scroll-behavior:smooth;}
+     section[id]{
+      scroll-margin-top: 90px;
+     }
+body{
+        font-family: sans-serif;
+        padding: 90px 20px 0;
+     }
+
+.header{
+    background-color:grey;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+}
+ .nav{
+    display:flex;
+    justify-content:space-between;
+    max-width:992px;
+    margin: 0 auto;
+ }
+
+
+.nav-link{
+    color: #254535;
+  text-decoration:solid;
+  font-weight:bold;
+ } 
+ .logo{
+    font-size: 30px;
+    font-weight:bold;
+    padding: 0 40px;
+    line-height:80px;
+ }
+
+ .nav-menu{
+    display:flex;
+    margin-right:40px;
+    list-style:none;
+ }
+ .nav-menu-item{
+    font-size:18px;
+    margin:0 10px;
+    line-height: 80px;
+    text-transform:uppercase;
+    width:max-content;
+ }
+ .nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+ }
+ .nav-menu-link:hover{
+    background-color: #d0dad5;
+    transition: 0.5s;
+ }
+#name{
+    color: rgb(68, 129, 139);
+    font: 1em sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    border:1px;
+   top:20px;
+ text-align: center;
+    
+}
+img{
+   height:250px;
+   width:250px;
+   display:block;
+   margin:auto;
+  
+
+}
+h1 {color:rgb(2, 21, 29) ;
+font-size: sans-serif;
+border: 5px;
+text-align:center;}
+
+h2{color:rgb(7, 3, 92);
+   font-size:Verdana;
+   border:1px;
+   text-align:justify;}
+
+h3{color:rgb(11, 22, 15);
+font-size:Light 300 33px;
+font-weight: bold;
+
+}
+.horizontal-padding {
+   padding-left: 70px;
+   padding-right:70px;
+ }
+ .vertical-padding {
+   padding-top: 70px;
+   padding-bottom: 70px;
+ }
+ 
+ @media (min-width: 950px) {
+   .horizontal-padding {
+     padding-left: 80px;
+     padding-right: 80px;
+   }
+ }
+
+ .form {
+   width: 100%;
+   max-width: 600px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .form input {
+   width: 90%;
+   height: 30px;
+   margin: 0.5rem;
+ }
+ 
+ .form button {
+   padding: 0.5em 1em;
+   border: none;
+   background: rgb(100, 200, 255);
+   cursor: pointer;
+ }
+.imagen_habilidad img { float: left;
+       width: 5em; 
+       height: 5em; 
+       margin-right:
+        1em; }
+ .fijar{
+   margin-top:-135px;
+ }
